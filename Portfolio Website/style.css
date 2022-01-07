@@ -632,9 +632,16 @@ section{
 
 /* Responsive */
 @media(max-width: 992px) {
+    .copyright{
+        position: relative;
+        bottom: 0px;
+        padding: 10px 40px;
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
     .themeSwitch{
         position: absolute;
-        top: 700px;
+        top: 10px;
         left: 10px;
         z-index: 99999;
     }
